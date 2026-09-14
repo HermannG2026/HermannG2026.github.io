@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+         content="width=device-width, initial-scale=1.0">
+<title>About | Hermann G</title>
+<meta name="description"
+         content="About Hermann G — Publishing Editor in Computer Science.">
+<style>
+       * {
+           box-sizing: border-box;
+           margin: 0;
+           padding: 0;
+       }
+       body {
+           font-family: -apple-system, BlinkMacSystemFont,
+                        "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+           color: #222;
+           background: #f8f8f6;
+           line-height: 1.8;
+       }
+       .container {
+           max-width: 900px;
+           margin: 0 auto;
+           padding: 0 30px;
+       }
+       header {
+           padding: 28px 0;
+           border-bottom: 1px solid #ddd;
+       }
+       nav {
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+       }
+       .logo {
+           font-size: 22px;
+           font-weight: 600;
+       }
+       nav a {
+           color: #444;
+           text-decoration: none;
+           margin-left: 25px;
+           font-size: 15px;
+       }
+       nav a:hover {
+           color: #000;
+       }
+       main {
+           padding: 80px 0;
+       }
+       h1 {
+           font-size: 48px;
+           margin-bottom: 35px;
+           font-weight: 600;
+       }
+       h2 {
+           font-size: 27px;
+           margin-top: 55px;
+           margin-bottom: 20px;
+       }
+       p {
+           max-width: 700px;
+           color: #555;
+           font-size: 17px;
+           margin-bottom: 20px;
+       }
+       .highlight {
+           font-size: 21px;
+           color: #333;
+           margin-bottom: 35px;
+       }
+       .experience {
+           border-left: 3px solid #333;
+           padding-left: 25px;
+           margin-top: 25px;
+       }
+       .experience h3 {
+           font-size: 20px;
+           margin-bottom: 5px;
+       }
+       .experience .date {
+           color: #888;
+           font-size: 14px;
+           margin-bottom: 12px;
+       }
+       ul {
+           margin-left: 25px;
+           color: #555;
+           font-size: 16px;
+       }
+       li {
+           margin-bottom: 8px;
+       }
+       footer {
+           padding: 40px 0;
+           border-top: 1px solid #ddd;
+           color: #888;
+           font-size: 14px;
+       }
+       @media (max-width: 700px) {
+           .container {
+               padding: 0 22px;
+           }
+           nav {
+               align-items: flex-start;
+           }
+           nav a {
+               margin-left: 12px;
+           }
+           main {
+               padding: 60px 0;
+           }
+           h1 {
+               font-size: 40px;
+           }
+       }
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container">
+<nav>
+<div class="logo">
+<a href="index.html">Hermann G</a>
+</div>
+<div>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="index.html#work">Work</a>
+<a href="index.html#writing">Writing</a>
+<a href="index.html#travel">Travel</a>
+</div>
+</nav>
+</div>
+</header>
+
+<main>
+<div class="container">
+
+<h1>
+           About Me
+</h1>
+
+<p class="highlight">
+           Publishing Editor · Computer Science · Academic Publishing
+</p>
+
+<p>
+           I am a publishing editor working in the field of
+           computer science academic publishing.
+</p>
+
+<p>
+           My work focuses on scholarly communication,
+           conference proceedings, research communities,
+           and the development of international academic
+           publishing programs.
+</p>
+
+<p>
+           I am particularly interested in computer science,
+           artificial intelligence, emerging technologies,
+           mathematics, and the ways in which knowledge
+           is created, communicated and shared.
+</p>
+
+<h2>
+           Professional Experience
+</h2>
+
+<div class="experience">
+<h3>
+               Publishing Editor
+</h3>
+<div class="date">
+               Springer Nature · Computer Science
+</div>
+<p>
+               Working with researchers, editors,
+               conference organizers and academic
+               communities on computer science
+               conference proceedings and scholarly
+               publishing.
+</p>
+<ul>
+<li>
+                   Conference proceedings development
+</li>
+<li>
+                   Academic publishing and editorial workflows
+</li>
+<li>
+                   Research community engagement
+</li>
+<li>
+                   International conference cooperation
+</li>
+</ul>
+</div>
+
+<h2>
+           Interests
+</h2>
+
+<p>
+           Artificial Intelligence · Computer Science ·
+           Mathematics · Academic Publishing ·
+           Books · Travel · History · Philosophy
+</p>
+
+<h2>
+           This Website
+</h2>
+
+<p>
+           This website is a personal space for sharing
+           professional information, writing, ideas,
+           reading notes and travel experiences.
+</p>
+
+</div>
+</main>
+
+<footer>
+<div class="container">
+       © 2026 Hermann G
+</div>
+</footer>
+
+</body>
+</html>
