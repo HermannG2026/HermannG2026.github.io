@@ -60,7 +60,7 @@
 
             max-width: 900px;
 
-            margin: 60px auto;
+            margin: 70px auto;
 
             padding: 0 20px;
 
@@ -68,65 +68,141 @@
 
         h1 {
 
-            font-size: 48px;
+            font-size: 52px;
 
-            margin-bottom: 12px;
+            margin: 0 0 12px;
+
+            letter-spacing: -1px;
 
         }
 
-        .lead {
+        .intro {
 
             font-size: 20px;
 
             color: #666;
 
-            margin-bottom: 60px;
+            max-width: 650px;
+
+            margin-bottom: 70px;
 
         }
 
         .section {
 
-            margin-bottom: 50px;
+            margin-bottom: 60px;
 
         }
 
-        .section h2 {
+        .section-title {
 
-            font-size: 24px;
+            font-size: 14px;
+
+            text-transform: uppercase;
+
+            letter-spacing: 1.5px;
+
+            color: #888;
 
             margin-bottom: 20px;
 
         }
 
-        .card {
+        .post {
+
+            display: block;
+
+            text-decoration: none;
+
+            color: inherit;
+
+            background: white;
+
+            padding: 26px;
+
+            margin-bottom: 16px;
+
+            border: 1px solid #e5e5e5;
+
+            border-radius: 10px;
+
+            transition: transform 0.15s ease,
+
+                        box-shadow 0.15s ease;
+
+        }
+
+        .post:hover {
+
+            transform: translateY(-2px);
+
+            box-shadow: 0 5px 18px rgba(0,0,0,0.06);
+
+        }
+
+        .post-date {
+
+            font-size: 13px;
+
+            color: #999;
+
+            margin-bottom: 8px;
+
+        }
+
+        .post h2 {
+
+            font-size: 22px;
+
+            margin: 0 0 8px;
+
+        }
+
+        .post p {
+
+            margin: 0;
+
+            color: #666;
+
+        }
+
+        .topics {
+
+            display: grid;
+
+            grid-template-columns: repeat(2, 1fr);
+
+            gap: 16px;
+
+        }
+
+        .topic {
 
             background: white;
 
             padding: 24px;
 
-            margin-bottom: 18px;
+            border: 1px solid #e5e5e5;
 
             border-radius: 10px;
 
-            border: 1px solid #e5e5e5;
-
         }
 
-        .card h3 {
+        .topic h3 {
 
             margin-top: 0;
 
             margin-bottom: 8px;
 
-            font-size: 20px;
+            font-size: 19px;
 
         }
 
-        .card p {
+        .topic p {
+
+            margin: 0;
 
             color: #666;
-
-            margin-bottom: 0;
 
         }
 
@@ -134,7 +210,7 @@
 
             max-width: 900px;
 
-            margin: 80px auto 30px;
+            margin: 90px auto 30px;
 
             padding: 0 20px;
 
@@ -145,12 +221,6 @@
         }
 
         @media (max-width: 600px) {
-
-            h1 {
-
-                font-size: 38px;
-
-            }
 
             nav {
 
@@ -174,6 +244,24 @@
 
             }
 
+            h1 {
+
+                font-size: 40px;
+
+            }
+
+            .intro {
+
+                font-size: 18px;
+
+            }
+
+            .topics {
+
+                grid-template-columns: 1fr;
+
+            }
+
         }
 </style>
 </head>
@@ -188,64 +276,103 @@
 <a href="travel.html">Travel</a>
 </div>
 </nav>
+
 <main class="container">
 <h1>Writing</h1>
-<p class="lead">
+<p class="intro">
 
-            Notes on technology, ideas, books, mathematics, and academic publishing.
+            Notes, essays, and observations on technology,
+
+            mathematics, books, academic publishing, and ideas.
 </p>
+
+<!-- Latest -->
 <section class="section">
-<h2>Latest Notes</h2>
-<div class="card">
-<h3>Coming soon</h3>
+<div class="section-title">
+
+                Latest
+</div>
+<div class="post">
+<div class="post-date">
+
+                    Coming soon
+</div>
+<h2>
+
+                    The first note is on its way.
+</h2>
 <p>
 
-                    This section will collect essays, notes, and observations
+                    This space will collect ideas, observations,
 
-                    on technology, research, books, and ideas.
+                    and things worth thinking about.
 </p>
 </div>
 </section>
+
+<!-- Topics -->
 <section class="section">
-<h2>Topics</h2>
-<div class="card">
-<h3>AI & Technology</h3>
+<div class="section-title">
+
+                Topics
+</div>
+<div class="topics">
+<div class="topic">
+<h3>
+
+                        AI & Technology
+</h3>
 <p>
 
-                    Notes on artificial intelligence, emerging technologies,
+                        Artificial intelligence, emerging technologies,
 
-                    and their impact on research and society.
+                        and their impact on research and society.
 </p>
 </div>
-<div class="card">
-<h3>Mathematics & Ideas</h3>
+
+<div class="topic">
+<h3>
+
+                        Mathematics & Ideas
+</h3>
 <p>
 
-                    Mathematical ideas, scientific thinking, and intellectual
+                        Mathematical concepts, scientific thinking,
 
-                    explorations.
+                        and intellectual explorations.
 </p>
 </div>
-<div class="card">
-<h3>Books</h3>
+
+<div class="topic">
+<h3>
+
+                        Books
+</h3>
 <p>
 
-                    Reading notes, book recommendations, and reflections on
+                        Reading notes, recommendations,
 
-                    books that are worth thinking about.
+                        and reflections on books.
 </p>
 </div>
-<div class="card">
-<h3>Academic Publishing</h3>
+
+<div class="topic">
+<h3>
+
+                        Academic Publishing
+</h3>
 <p>
 
-                    Observations on scholarly communication, academic publishing,
+                        Scholarly communication, conferences,
 
-                    conferences, and research communities.
+                        academic publishing, and research communities.
 </p>
+</div>
 </div>
 </section>
+
 </main>
+
 <footer>
 
         © 2026 Hermann G
