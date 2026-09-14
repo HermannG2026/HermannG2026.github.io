@@ -1,16 +1,290 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hermann G</title>
+<title>Hermann G | Personal Website</title>
+<meta name="description"
+         content="Hermann G — Publishing Editor in Computer Science. Personal website, writing, interests and travel.">
+<style>
+       * {
+           box-sizing: border-box;
+           margin: 0;
+           padding: 0;
+       }
+       body {
+           font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                        Roboto, Helvetica, Arial, sans-serif;
+           color: #222;
+           background: #f8f8f6;
+           line-height: 1.7;
+       }
+       .container {
+           max-width: 1000px;
+           margin: 0 auto;
+           padding: 0 30px;
+       }
+       header {
+           padding: 28px 0;
+           border-bottom: 1px solid #ddd;
+       }
+       nav {
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+       }
+       .logo {
+           font-size: 22px;
+           font-weight: 600;
+           letter-spacing: 0.5px;
+       }
+       nav ul {
+           list-style: none;
+           display: flex;
+           gap: 28px;
+       }
+       nav a {
+           color: #444;
+           text-decoration: none;
+           font-size: 15px;
+       }
+       nav a:hover {
+           color: #000;
+       }
+       .hero {
+           padding: 110px 0 90px;
+       }
+       .hero h1 {
+           font-size: 58px;
+           line-height: 1.1;
+           font-weight: 600;
+           margin-bottom: 20px;
+       }
+       .subtitle {
+           font-size: 23px;
+           color: #555;
+           margin-bottom: 28px;
+       }
+       .intro {
+           max-width: 650px;
+           font-size: 17px;
+           color: #666;
+       }
+       section {
+           padding: 70px 0;
+           border-top: 1px solid #ddd;
+       }
+       h2 {
+           font-size: 30px;
+           margin-bottom: 25px;
+           font-weight: 600;
+       }
+       .card-grid {
+           display: grid;
+           grid-template-columns: repeat(3, 1fr);
+           gap: 20px;
+       }
+       .card {
+           background: white;
+           padding: 28px;
+           border: 1px solid #e5e5e5;
+           border-radius: 8px;
+       }
+       .card h3 {
+           margin-bottom: 10px;
+           font-size: 19px;
+       }
+       .card p {
+           color: #666;
+           font-size: 15px;
+       }
+       footer {
+           padding: 40px 0;
+           border-top: 1px solid #ddd;
+           color: #888;
+           font-size: 14px;
+       }
+       @media (max-width: 700px) {
+           .container {
+               padding: 0 22px;
+           }
+           nav {
+               align-items: flex-start;
+               gap: 15px;
+           }
+           nav ul {
+               gap: 12px;
+               flex-wrap: wrap;
+               justify-content: flex-end;
+           }
+           .hero {
+               padding: 75px 0 60px;
+           }
+           .hero h1 {
+               font-size: 43px;
+           }
+           .subtitle {
+               font-size: 19px;
+           }
+           .card-grid {
+               grid-template-columns: 1fr;
+           }
+       }
+</style>
 </head>
 <body>
-<h1>Hermann G</h1>
-<p>Welcome to my personal website.</p>
-<h2>About Me</h2>
-<p>
-       This website is currently under construction.
+<header>
+<div class="container">
+<nav>
+<div class="logo">
+               Hermann G
+</div>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#work">Work</a></li>
+<li><a href="#writing">Writing</a></li>
+<li><a href="#travel">Travel</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero">
+<div class="container">
+<h1>
+               Hermann G
+</h1>
+<div class="subtitle">
+               Publishing Editor · Computer Science
+</div>
+<p class="intro">
+               Welcome to my personal website.
+               I work in academic publishing and computer science,
+               and I am interested in technology, artificial intelligence,
+               mathematics, books, ideas, and travel.
 </p>
+</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+<div class="container">
+<h2>
+               About
+</h2>
+<p class="intro">
+               I am a publishing editor working in the field of
+               computer science academic publishing.
+</p>
+<br>
+<p class="intro">
+               This website is a space for my professional work,
+               personal interests, writing, reading notes, and
+               travel experiences.
+</p>
+</div>
+</section>
+
+<!-- WORK -->
+<section id="work">
+<div class="container">
+<h2>
+               Work
+</h2>
+<div class="card-grid">
+<div class="card">
+<h3>
+                       Academic Publishing
+</h3>
+<p>
+                       Computer science conference proceedings
+                       and scholarly publishing.
+</p>
+</div>
+
+<div class="card">
+<h3>
+                       Computer Science
+</h3>
+<p>
+                       Exploring developments in AI,
+                       computing and emerging technologies.
+</p>
+</div>
+
+<div class="card">
+<h3>
+                       Professional Interests
+</h3>
+<p>
+                       Research communities, conferences,
+                       technology and international collaboration.
+</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- WRITING -->
+<section id="writing">
+<div class="container">
+<h2>
+               Writing
+</h2>
+<div class="card-grid">
+<div class="card">
+<h3>
+                       Technology & AI
+</h3>
+<p>
+                       Notes and thoughts on artificial intelligence,
+                       technology and the future of computing.
+</p>
+</div>
+
+<div class="card">
+<h3>
+                       Mathematics & Ideas
+</h3>
+<p>
+                       Reading notes, mathematical ideas,
+                       philosophy and intellectual curiosities.
+</p>
+</div>
+
+<div class="card">
+<h3>
+                       Books
+</h3>
+<p>
+                       Books I read, ideas worth remembering,
+                       and occasional reflections.
+</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- TRAVEL -->
+<section id="travel">
+<div class="container">
+<h2>
+               Travel
+</h2>
+<p class="intro">
+               Places, journeys, landscapes and observations
+               from my travels.
+</p>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="container">
+       © 2026 Hermann G
+</div>
+</footer>
 </body>
 </html>
