@@ -1,1 +1,1 @@
-qqq
+This folder contains articles published on Hermann G.
